@@ -12,7 +12,7 @@ connection = mysql.connector.connect(
 )
 @app.route('/check_voter')
 def render_check_voter_template():
-    return render_template('verify_voter.html')
+    return render_template('index.html')
 
 # Route for checking if the voter exists
 @app.route('/check_voter', methods=['POST'])
