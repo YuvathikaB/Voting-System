@@ -7,7 +7,7 @@ app = Flask(__name__)
 connection = mysql.connector.connect(
     host='localhost',
     user='root',
-    password='Root0104',
+    password='root',
     database='elections'
 )
 @app.route('/check_voter')
